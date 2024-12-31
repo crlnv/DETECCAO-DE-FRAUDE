@@ -12,5 +12,5 @@ Considerações sobre os resultados:
 
 - A matriz de confusão revela apenas 5 erros em um total de 4.334 previsões: 1 falso positivo (transação normal classificada como fraude) e 4 falsos negativos (fraudes não detectadas). Embora estes números sejam impressionantes, é importante notar que em contextos reais de fraude, cada falso negativo pode representar um risco financeiro significativo.
 
-- É importante manter uma perspectiva crítica diante desses resultados. Uma performance quase perfeita como pode sinalizar possíveis questões como overfitting.
+- É importante manter uma perspectiva crítica diante desses resultados. Uma performance quase perfeita pode sinalizar possíveis questões como overfitting. Fica esperto.
 
