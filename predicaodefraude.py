@@ -45,7 +45,7 @@ df['daily_transaction_count'] = df.groupby(df['trans_date_trans_time'].dt.date)[
 df['merchant_consistency'] = df.groupby(['job', 'merchant'])['trans_num'].transform('count')
 
 
-# Exploratory Data Analysis
+# Exploratoria
 plt.figure(figsize=(10, 6))
 sns.histplot(df['amt'], bins=50, kde=True)
 plt.title('Distribution of Transaction Amounts')
