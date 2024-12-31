@@ -6,6 +6,8 @@ A criação de variáveis agregadas como 'daily_transaction_count' e 'merchant_c
 
 Na análise exploratória univariada, os histogramas foram escolhidos para visualizar a distribuição das variáveis contínuas (valores de transação, idade e população). Esta visualização permite identificar outliers, assimetrias e padrões de distribuição que podem ser relevantes para a detecção de fraudes. A inclusão de KDE (Kernel Density Estimation) nos histogramas ajuda a suavizar a visualização e identificar melhor a forma da distribuição. A análise bivariada utilizando boxplots é particularmente interessante para comparar a distribuição das variáveis numéricas entre transações fraudulentas e legítimas. Os boxplots mostram não apenas as diferenças nas medianas, mas também na dispersão e na presença de outliers entre os dois grupos. 
 
+**Método de CLassificação**: Random Forest. 
+
 Considerações sobre os resultados:
 
 - Os resultados do modelo de classificação para predição de fraudes demonstram uma performance excepcional, com precisão quase perfeita. O modelo atingiu 100% de acurácia para transações não fraudulentas (3.769 casos) e 99% para transações fraudulentas (565 casos), indicando uma capacidade notável de discriminação entre as classes.
