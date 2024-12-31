@@ -107,9 +107,9 @@ y_pred = model.predict(X_test)
 report = classification_report(y_test, y_pred)
 conf_matrix = confusion_matrix(y_test, y_pred)
 print(report)
-print(conf_matrix)
+print(conf_matrix) # Matriz de confusão
 
-# Matriz de confusão
+
 plt.figure(figsize=(8, 6))
 ConfusionMatrixDisplay.from_estimator(model, X_test, y_test, display_labels=['Non-Fraudulent', 'Fraudulent'], cmap=plt.cm.Blues)
 plt.title('Matriz de Confusão do modelo de detecção de fraude')
