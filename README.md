@@ -8,7 +8,7 @@ Na análise exploratória univariada, os histogramas foram escolhidos para visua
 
 Considerações sobre os resultados:
 
-- Os resultados do modelo de classificação para detecção de fraudes demonstram uma performance excepcional, com precisão quase perfeita. O modelo atingiu 100% de acurácia para transações não fraudulentas (3.769 casos) e 99% para transações fraudulentas (565 casos), indicando uma capacidade notável de discriminação entre as classes.
+- Os resultados do modelo de classificação para predição de fraudes demonstram uma performance excepcional, com precisão quase perfeita. O modelo atingiu 100% de acurácia para transações não fraudulentas (3.769 casos) e 99% para transações fraudulentas (565 casos), indicando uma capacidade notável de discriminação entre as classes.
 
 - A matriz de confusão revela apenas 5 erros em um total de 4.334 previsões: 1 falso positivo (transação normal classificada como fraude) e 4 falsos negativos (fraudes não detectadas). Embora estes números sejam impressionantes, é importante notar que em contextos reais de fraude, cada falso negativo pode representar um risco financeiro significativo.
 
